@@ -82,7 +82,7 @@ def main_cli(folder_path, output_file):
 if __name__ == "__main__":
     folder_path = "./images"
     output_file = "output.mp4"
-    info, err = main(folder_path, output_file)
+    info, err = main_cli(folder_path, output_file)
     
     print("info: ", info)
     print("err: ", err)
